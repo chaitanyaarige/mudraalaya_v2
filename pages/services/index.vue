@@ -2,7 +2,7 @@
   <div class="Services__main-container">
 
     <div class="text-center py-8">
-      <span class="display-3 font-weight-thin primary--text">
+      <span class="display-3 font-weight-regular primary--text">
         Our Services
       </span>
       <br><br>
@@ -22,6 +22,49 @@
               <br>
               <p class="headline font-weight-thin">
                 Get your business cards with best quality at lowest price. Upload your details in Business card templates and choose from many printing options like Standard, Folded, Custom Sizes, Die-Cut Shapes, and now also in Foil, Metallic, Painted Edge and Plastic Business Cards! Many shapes and sizes available with gloss, matte or uncoated paper finish.
+              </p>
+            </v-flex>
+          </v-row>
+        </v-layout>
+      </v-card>
+      <br>
+      <v-divider></v-divider>
+
+         <v-card ripple tile class="px-4" flat hover color="grey darken-4">
+        <v-layout>
+          <v-row align="center" justify="center" class="pa-3">
+            <v-flex xl6 lg6 md12 sm12 xs12 align="center" justify="center" class="pa-2">
+              <div class="display-3 font-weight-thin red--text">
+               Own Material Text Books
+              </div>
+              <br>
+              <p class="headline font-weight-thin">
+                A textbook is a comprehensive compilation of content in a branch of study. Textbooks are produced to meet the needs of educators, usually at educational institutions. Schoolbooks are textbooks and other books used in schools.Mudraalaya published all types of text books, materials Etc..,as you like.
+              </p>
+            </v-flex>
+            <v-flex xl6 lg6 md12 sm12 xs12 class="pa-3">
+              <v-img src="/img/books.jpg" :aspect-ratio="16/9"></v-img>
+            </v-flex>
+          </v-row>
+        </v-layout>
+      </v-card>
+      <br>
+      <v-divider></v-divider>
+      <br>
+
+       <v-card ripple tile class="px-4" flat hover color="grey darken-4">
+        <v-layout>
+          <v-row align="center" justify="center" class="pa-3">
+            <v-flex xl6 lg6 md12 sm12 xs12 class="pa-3">
+              <v-img src="/img/flex.jpg" :aspect-ratio="16/9"></v-img>
+            </v-flex>
+            <v-flex xl6 lg6 md12 sm12 xs12 align="center" justify="center" class="pa-2">
+              <div class="display-3 font-weight-thin yellow--text">
+                Flexi printing
+              </div>
+              <br>
+              <p class="headline font-weight-thin">
+                Flexi is the material of Flex boards, which is used with the flexibility that passes through the light and is used for the signs in the shops, shops, and pedestrian boards in brief for panels featuring fluorescent lamps. Because Flexible Flexibility is very useful. Advertising banner can be placed anywhere in the exhibition fair, in an event as a sponsor, or out of the business center. Every time the consumer sees his banner screen, it's still fresh.
               </p>
             </v-flex>
           </v-row>
@@ -123,7 +166,7 @@
         <v-layout>
           <v-row align="center" justify="center" class="pa-3">
             <v-flex xl6 lg6 md12 sm12 xs12 align="center" justify="center" class="pa-2">
-              <div class="display-3 font-weight-thin success--text">
+              <div class="display-3 font-weight-thin pink--text">
                 Flyers
               </div>
               <br>
@@ -139,6 +182,28 @@
       </v-card>
       <br>
       <br>
+
+       <v-card ripple tile class="px-4" flat hover color="grey darken-4">
+        <v-layout>
+          <v-row align="center" justify="center" class="pa-3">
+            <v-flex xl6 lg6 md12 sm12 xs12 class="pa-3">
+              <v-img src="/img/certificats.jpg" :aspect-ratio="16/9"></v-img>
+            </v-flex>
+            <v-flex xl6 lg6 md12 sm12 xs12 align="center" justify="center" class="pa-2">
+              <div class="display-3 font-weight-thin light-green--text">
+                Certificates
+              </div>
+              <br>
+              <p class="headline font-weight-thin">
+                At times it is good to appreciate what one person or a group of people have done for us. This could be due to the help or assistance they offered during a hard time or in making a certain event or ceremony successful. It might be a case of you appreciating your boss or a boss appreciating his/her employees for a job well done or it might be an appreciation of a client or best students from their school. An appreciation letter or a certificate of appreciation would help you relay this in a better way that is more personal in nature.
+              </p>
+            </v-flex>
+          </v-row>
+        </v-layout>
+      </v-card>
+       
+      <br>
+      <v-divider></v-divider>
     </v-container>
   </div>
 </template>

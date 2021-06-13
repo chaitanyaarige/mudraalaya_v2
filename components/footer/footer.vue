@@ -14,11 +14,29 @@
         <v-card-text class="Footer__contact-details pa-5">
           <img src="/img/bottomLogo.png" alt="Bottom Logo" width="100px" />
           <div class="display-1 font-weight-thin">Let's Talk</div>
-          <div class="headline font-weight-thin">Email: mudraalaya@gmail.com</div>
-          <div class="headline font-weight-thin">Phone: +91 9848877829</div>
+          <div class="headline font-weight-thin">Email: mudr<b>aa</b>laya@gmail.com</div>
+          <div class="headline font-weight-thin">Email: mudr<b>aa</b>layaprinters@gmail.com</div>
+          <div class="headline font-weight-thin">Phones: +91 98488 77829 , 63000 66461</div>
+          <div class="headline font-weight-thin">WhatsApp: +91 98488 77829</div>
         </v-card-text>
 
         <v-card-text>
+          
+          <v-btn
+            class="mx-4 white--text"
+            icon href="tel:+919848877829"
+          >
+            <v-icon>mdi-phone</v-icon>
+          </v-btn>
+
+          <v-btn
+            class="mx-4 white--text"
+            icon
+            href="mailto:mudraalayaprinters@gmail.com"
+          >
+            <v-icon size="24px">mdi-email</v-icon>
+          </v-btn>
+          
           <v-btn
             class="mx-4 white--text"
             icon
@@ -26,35 +44,24 @@
           >
             <v-icon size="24px">mdi-whatsapp</v-icon>
           </v-btn>
-          <v-btn
+
+          <!-- <v-btn
             class="mx-4 white--text"
             icon
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/mudraalaya.printers"
             target="_blank"
           >
             <v-icon size="24px">mdi-facebook</v-icon>
-          </v-btn>
-          <v-btn
+          </v-btn> -->
+
+          <!-- <v-btn
             class="mx-4 white--text"
             icon
             href="https://www.instagram.com/"
             target="_blank"
           >
             <v-icon size="24px">mdi-instagram</v-icon>
-          </v-btn>
-          <v-btn
-            class="mx-4 white--text"
-            icon
-            href="mailto:mudraalaya@gmail.com"
-          >
-            <v-icon size="24px">mdi-mail</v-icon>
-          </v-btn>
-          <v-btn
-            class="mx-4 white--text"
-            icon href="tel:+919848877829"
-          >
-            <v-icon>mdi-phone</v-icon>
-          </v-btn>
+          </v-btn> -->
         </v-card-text>
 
         <v-divider></v-divider>

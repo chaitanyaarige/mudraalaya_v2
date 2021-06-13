@@ -12,14 +12,14 @@
     >
       <template #extension>
         <v-toolbar-items class="Navbar__info-icons">
-          <v-btn
-            color="blue"
+          <!-- <v-btn
+            color="#3b5998"
             icon
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/mudraalaya.printers"
             target="_blank"
           >
             <v-icon>mdi-facebook-box</v-icon>
-          </v-btn>
+          </v-btn> -->
           <v-btn
             color="green"
             icon
@@ -27,7 +27,7 @@
           >
             <v-icon>mdi-whatsapp</v-icon>
           </v-btn>
-          <v-btn color="red" icon href="mailto:mudraalaya@gmail.com">
+          <v-btn color="lightgrey" icon href="mailto:mudraalayaprinters@gmail.com">
             <v-icon>mdi-email</v-icon>
           </v-btn>
           <v-btn color="success" icon href="tel:+919848877829">

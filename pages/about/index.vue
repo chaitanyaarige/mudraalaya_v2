@@ -1,7 +1,7 @@
 <template>
   <div class="About__main-container">
     <div class="px-3 py-8">
-      <span class="display-3 font-weight-thin primary--text">
+      <span class="display-3 font-weight-regular primary--text">
         About Mudraalaya
       </span>
       <br><br><br>
@@ -20,48 +20,45 @@
 
     <v-parallax dark height="800" src="/img/parallax_2.jpg">
       <div class="About__we-do px-3 py-8 text-center">
-        <span class="display-3 font-weight-thin primary--text">
+        <span class="display-3 font-weight-regular primary--text">
           What We Do
         </span>
         <br><br><br>
-        <p class="headline font-weight-thin success--text">
+        <p class="headline font-weight-regular success--text">
           Brochures
         </p>
-        <p class="headline font-weight-thin orange--text">
+        <p class="headline font-weight-regular orange--text">
           Letter Heads
         </p>
-        <p class="headline font-weight-thin yellow--text">
+        <p class="headline font-weight-regular yellow--text">
           Booklets
         </p>
-        <p class="headline font-weight-thin red--text">
+        <p class="headline font-weight-regular red--text">
           Stickers
         </p>
-        <p class="headline font-weight-thin green--text">
-          Adversiment Design
+        <p class="headline font-weight-regular success--text">
+          Website Design
         </p>
-        <p class="headline font-weight-thin cyan--text">
-          Flyer Design
+        <p class="headline font-weight-regular green--text">
+          Own Material Text Books
         </p>
-        <p class="headline font-weight-thin grey--text">
-          Newsletter Design
+        <p class="headline font-weight-thregularin cyan--text">
+          Flyer Design & Printing
         </p>
-        <p class="headline font-weight-thin red--text">
-          Corporate Profile Design
+        <p class="headline font-weight-regular grey--text">
+          Certificates Design and Printng
         </p>
-        <p class="headline font-weight-thin yellow--text">
-          Hoarding Design
+        <p class="headline font-weight-regular red--text">
+          Id Cards Design & Printing
         </p>
-        <p class="headline font-weight-thin success--text">
-          Dairy Design
+        <p class="headline font-weight-regular success--text">
+          Dairy Printing
         </p>
-        <p class="headline font-weight-thin grey--text">
-          Menus Design
+        <p class="headline font-weight-regular grey--text">
+          Menus Design & printin
         </p>
-        <p class="headline font-weight-thin light-green--text">
-          Social Media Banners
-        </p>
-        <p class="headline font-weight-thin green--text">
-          Printing And Delivery
+        <p class="headline font-weight-regular green--text">
+          Flexi Printing And Delivery
         </p>
       </div>
     </v-parallax>

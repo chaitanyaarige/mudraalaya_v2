@@ -1,15 +1,67 @@
 <template>
   <div class="Userreviews__main-container">
     <div class="text-center py-8">
-      <span class="display-3 font-weight-thin primary--text">
+      <span class="display-3 font-weight-regular primary--text">
         What our clients say
       </span>
     </div>
 
     <div class="my-10">
+      <!--Delhi public scool -->
       <v-card flat tile>
         <div class="px-3 py-8 text-center">
-          <img src="/img/client-3.jpg" width="150" style="border-radius: 50%;"/>
+          <img src="/img/DPS.jpg" width="150" style="border-radius: 50%;"/>
+          <br>
+          <br>
+          <span class="headline font-weight-thin">
+            “ We use Mudraalaya Printing for printing various needs, they always respond in a quick turnaround time, with competitive rate, good service and with a smile.
+
+            We are very impressed with the services & speed of Mudraalaya Printers.
+
+            Wishing you the best”
+          </span>
+          <br><br>
+          <span class="display-1 font-weight-normal green--text">
+            Robinson Michael
+          </span>
+          <br>
+          <span class="font-weight-thin yellow--text">
+          Head - Public Relations
+          </span>
+          <br><br>
+          <v-rating v-model="rating" color="orange" readonly></v-rating>
+        </div>
+      </v-card>
+      <br><br>
+
+      <!--Dilsukhnagar public school -->    
+      <v-card flat tile>
+        <div class="px-3 py-8 text-center">
+          <img src="/img/dilpschool.jpg" width="150" style="border-radius: 50%;"/>
+          <br>
+          <br>
+          <span class="headline font-weight-thin">
+            “ More than impressed with Mudraalaya`s impeccable service and follow up. Thank you for making good on your promises.”
+          </span>
+          <br><br>
+          <span class="display-1 font-weight-normal green--text">
+            Aruna Bopanna 
+          </span>
+          <br>
+          <span class="font-weight-thin yellow--text">
+            Exam Branch Incharge
+          </span>
+          <br><br>
+          <v-rating v-model="rating" color="orange" readonly></v-rating>
+        </div>
+      </v-card>
+      <br><br>
+
+
+    <!--Anu Furniture -->
+      <v-card flat tile>
+        <div class="px-3 py-8 text-center">
+          <img src="/img/anu furniture.jpg" width="150" style="border-radius: 50%;"/>
           <br>
           <br>
           <span class="headline font-weight-thin">
@@ -17,11 +69,11 @@
           </span>
           <br><br>
           <span class="display-1 font-weight-normal green--text">
-            Lavang
+            E.B.Christine & Nagaraju
           </span>
           <br>
           <span class="font-weight-thin yellow--text">
-            Restaurant
+            Managers
           </span>
           <br><br>
           <v-rating v-model="rating" color="orange" readonly></v-rating>
@@ -29,21 +81,23 @@
       </v-card>
       <br><br>
 
+     
+     <!--Deccon Hopitals -->    
       <v-card flat tile>
         <div class="px-3 py-8 text-center">
-          <img src="/img/client-2.jpg" width="150" style="border-radius: 50%;"/>
+          <img src="/img/Deccan.jpg" width="150" style="border-radius: 50%;"/>
           <br>
           <br>
           <span class="headline font-weight-thin">
-            “ Excellent service and very efficient. I use mudraalaya.com for all my printing needs - they are reliable and provide quality products and fantastic value for money!”
+            “ Good Professionalized Printers perfect timing with good work. I will use and recommend the Mudraalaya Printers.”
           </span>
           <br><br>
           <span class="display-1 font-weight-normal green--text">
-            Quawell
+            Pavan  
           </span>
           <br>
           <span class="font-weight-thin yellow--text">
-            Laboratory
+           Purchase & Store Manager
           </span>
           <br><br>
           <v-rating v-model="rating" color="orange" readonly></v-rating>
@@ -51,6 +105,78 @@
       </v-card>
       <br><br>
 
+       <!--Tech Zert -->    
+      <v-card flat tile>
+        <div class="px-3 py-8 text-center">
+          <img src="/img/Techzert.jpg" width="150" style="border-radius: 50%;"/>
+          <br>
+          <br>
+          <span class="headline font-weight-thin">
+            “ Customer focused, maintains great eye for detail, suggests innovative ideas to help customers. I really liked thier focus on Quality and Customer satisfaction. Looking forward for increased association with Mudraalaya!.”
+          </span>
+          <br><br>
+          <span class="display-1 font-weight-normal green--text">
+           K.S.R.K. Prasad  
+          </span>
+          <br>
+          <span class="font-weight-thin yellow--text">
+           Vice President 
+          </span>
+          <br><br>
+          <v-rating v-model="rating" color="orange" readonly></v-rating>
+        </div>
+      </v-card>
+      <br><br>
+
+     
+     <!--Stone 36 -->    
+      <v-card flat tile>
+        <div class="px-3 py-8 text-center">
+          <img src="/img/stone36.jpg" width="150" style="border-radius: 50%;"/>
+          <br>
+          <br>
+          <span class="headline font-weight-thin">
+            “ Commitment with Quality & Quantity output is what we are bounded with Mudraalaya team. Keep up the great job & wish you all the best.”
+          </span>
+          <br><br>
+          <span class="display-1 font-weight-normal green--text">
+            Hemanth Chawda
+          </span>
+          <br>
+          <span class="font-weight-thin yellow--text">
+            STONE 36 C.E.O
+          </span>
+          <br><br>
+          <v-rating v-model="rating" color="orange" readonly></v-rating>
+        </div>
+      </v-card>
+      <br><br>
+      
+    <!--Menu 28 -->
+      <v-card flat tile>
+        <div class="px-3 py-8 text-center">
+          <img src="/img/Menu28.jpg" width="150" style="border-radius: 50%;"/>
+          <br>
+          <br>
+          <span class="headline font-weight-thin">
+            “ Excellent service and very efficient. I use mudraalaya for all my printing needs - they are reliable and provide quality products and fantastic value for money!”
+          </span>
+          <br><br>
+          <span class="display-1 font-weight-normal green--text">
+            G Sravan Reddy
+          </span>
+          <br>
+          <span class="font-weight-thin yellow--text">
+            GSR Hospitality , Director
+          </span>
+          <br><br>
+          <v-rating v-model="rating4" color="orange" readonly></v-rating>
+        </div>
+      </v-card>
+      <br><br>
+
+
+    <!--Crux -->
       <v-card flat tile>
         <div class="px-3 py-8 text-center">
           <img src="/img/client-1.jpg" width="150" style="border-radius: 50%;"/>
@@ -61,11 +187,11 @@
           </span>
           <br><br>
           <span class="display-1 font-weight-normal green--text">
-            Crux Diesel
+           Krishh
           </span>
           <br>
           <span class="font-weight-thin yellow--text">
-            Generator Industry
+            Crux Diesel, Generator Industry
           </span>
           <br><br>
           <v-rating v-model="rating" color="orange" readonly></v-rating>
@@ -73,6 +199,8 @@
       </v-card>
       <br><br>
 
+
+    <!--Cuts n Collors -->
       <v-card flat tile>
         <div class="px-3 py-8 text-center">
           <img src="/img/client-4.jpg" width="150" style="border-radius: 50%;"/>
@@ -93,7 +221,10 @@
           <v-rating v-model="rating" color="orange" readonly></v-rating>
         </div>
       </v-card>
+      <br><br>
+    
 
+     
       <div class="px-3 py-8 text-center display-2 font-weight-thin success--text">
         And Many More Happy Customers...
       </div>
@@ -116,7 +247,8 @@ export default {
 
   data () {
     return {
-      rating: 5
+      rating: 5,
+      rating4: 4
     }
   }
 }

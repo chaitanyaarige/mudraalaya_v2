@@ -3,7 +3,7 @@
     <div class="Contact__wrapper-banner">
       <div class="Contact__main-title">
         <div class="text-center py-8">
-          <span class="display-3 font-weight-thin primary--text">
+          <span class="display-3 font-weight-regular primary--text">
             Get in touch with us
           </span>
         </div>
@@ -20,7 +20,7 @@
               +91 98488 77829
             </div>
             <div class="headline font-weight-thin">
-              +91 63000 67461
+              +91 63000 66461
             </div>
             <div class="headline font-weight-thin">
               +91 98480 91911
@@ -30,10 +30,10 @@
               Email
             </div>
             <div class="headline font-weight-thin">
-              mudraalaya@gmail.com
+              mudr<b>aa</b>laya@gmail.com
             </div>
             <div class="headline font-weight-thin">
-              mudraalayaprinters@gmail.com
+              mudr<b>aa</b>layaprinters@gmail.com
             </div>
             <br>
             <div class="headline font-weight-thin cyan--text">
@@ -53,7 +53,7 @@
               Website
             </div>
             <div class="headline font-weight-thin">
-              www.mudraalaya.com
+              www.mudr<b>aa</b>layaprinters.com
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
             <div
               v-for="(item, i) in weDo"
               :key="i"
-              class="headline font-weight-light"
+              class="headline font-weight-regular"
               :class="`${item.color}--text`"
             >
               {{ item.text }}
@@ -109,12 +109,13 @@ export default {
         { color: 'red', text: 'Brochures' },
         { color: 'cyan', text: 'Flyers' },
         { color: 'light-green', text: 'Business cards' },
+        { color: 'teal', text: 'Website Design' },
         { color: 'pink', text: 'Booklets' },
-        { color: 'blue', text: 'News letters' },
+        { color: 'blue', text: 'ID cards' },
         { color: 'lime', text: 'Letter heads' },
         { color: 'blue-grey', text: 'Bill books' },
         { color: 'orange', text: 'Gift certificates' },
-        { color: 'teal', text: 'Restaurant menu' },
+        { color: 'teal', text: 'Restaurant menus' },
         { color: 'green', text: 'Event Tickets' },
         { color: 'pink', text: 'Labels' },
         { color: 'cyan', text: 'Stickers' },
