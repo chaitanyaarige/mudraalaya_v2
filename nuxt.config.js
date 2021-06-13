@@ -2,9 +2,13 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'universal',
+  target: 'static',
   /*
    ** Headers of the page
    */
+  generate: {
+    fallback: true
+  },
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
